@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstViewController.h
 //  Jamal_Animation
 //
 //  Created by jamalping on 15/11/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewController : UITableViewController
-
+@interface FirstViewController : UIViewController
 
 @end
-

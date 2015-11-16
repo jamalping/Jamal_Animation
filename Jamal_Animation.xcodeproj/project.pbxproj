@@ -15,6 +15,9 @@
 		006B2DFA1BF97416007BACD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006B2DF81BF97416007BACD7 /* LaunchScreen.storyboard */; };
 		006B2E051BF97416007BACD7 /* Jamal_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B2E041BF97416007BACD7 /* Jamal_AnimationTests.m */; };
 		006B2E101BF97416007BACD7 /* Jamal_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B2E0F1BF97416007BACD7 /* Jamal_AnimationUITests.m */; };
+		006B2E1F1BF9778A007BACD7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B2E1E1BF9778A007BACD7 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		006B2E221BF97B7E007BACD7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B2E211BF97B7E007BACD7 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		006B2E251BF9A59A007BACD7 /* panelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B2E241BF9A59A007BACD7 /* panelView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		006B2E0B1BF97416007BACD7 /* Jamal_AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jamal_AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		006B2E0F1BF97416007BACD7 /* Jamal_AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jamal_AnimationUITests.m; sourceTree = "<group>"; };
 		006B2E111BF97416007BACD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006B2E1D1BF9778A007BACD7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		006B2E1E1BF9778A007BACD7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		006B2E201BF97B7E007BACD7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		006B2E211BF97B7E007BACD7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		006B2E231BF9A59A007BACD7 /* panelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = panelView.h; sourceTree = "<group>"; };
+		006B2E241BF9A59A007BACD7 /* panelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = panelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				006B2DEE1BF97416007BACD7 /* AppDelegate.m */,
 				006B2DF01BF97416007BACD7 /* ViewController.h */,
 				006B2DF11BF97416007BACD7 /* ViewController.m */,
+				006B2E1D1BF9778A007BACD7 /* FirstViewController.h */,
+				006B2E1E1BF9778A007BACD7 /* FirstViewController.m */,
+				006B2E201BF97B7E007BACD7 /* SecondViewController.h */,
+				006B2E211BF97B7E007BACD7 /* SecondViewController.m */,
+				006B2E231BF9A59A007BACD7 /* panelView.h */,
+				006B2E241BF9A59A007BACD7 /* panelView.m */,
 				006B2DF31BF97416007BACD7 /* Main.storyboard */,
 				006B2DF61BF97416007BACD7 /* Assets.xcassets */,
 				006B2DF81BF97416007BACD7 /* LaunchScreen.storyboard */,
@@ -270,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006B2E221BF97B7E007BACD7 /* SecondViewController.m in Sources */,
 				006B2DF21BF97416007BACD7 /* ViewController.m in Sources */,
 				006B2DEF1BF97416007BACD7 /* AppDelegate.m in Sources */,
 				006B2DEC1BF97416007BACD7 /* main.m in Sources */,
+				006B2E1F1BF9778A007BACD7 /* FirstViewController.m in Sources */,
+				006B2E251BF9A59A007BACD7 /* panelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
